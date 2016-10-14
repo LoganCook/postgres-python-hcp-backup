@@ -1,0 +1,24 @@
+{
+    "logging":{
+        "level":"DEBUG",
+        "file":"backup.log"
+    },
+    "hcp":{
+        "hostname":"hcp.domain",
+        "tenant":"my-tenant",
+        "namespace":"my-namespace",
+        "access_key":"",
+        "access_secret":""
+    },
+    "rotation":{
+        "days":7,
+        "weeks":4,
+        "months":3
+    },
+    "pgdump":{
+        "tmpdir":"/tmp"
+    },
+    "slack":{
+        "token":"https://my.slack.token"
+    }
+}
